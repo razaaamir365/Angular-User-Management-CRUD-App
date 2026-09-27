@@ -1,0 +1,11 @@
+
+.user-ul{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-li{
+    color: rgb(29, 107, 29);
+    font-weight: bolder;
+}
