@@ -1,14 +1,24 @@
-<h1>Edit User</h1>
 
-<div class="add-box">
+
+<div class="add-box user-ul max-w-lg shadow-2xl m-4 p-4 rounded-3xl bg-amber-100">
+    <h1 class="text-4xl text-orange-700 text-center">Edit User</h1>
+    <div class="space-x-2 text-gray-800">
     <label for="name">User Name : </label>
-    <input type="text" placeholder="Enter Name" name="name" [formControl]="name"> 
+    <input 
+    class="w-auto border border-gray-300 bg-amber-50 rounded px-3 mt-4"
+    type="text" placeholder="Enter Name" name="name" [formControl]="name"> 
     <br><br>   
     <label for="age">User Age : </label>
-    <input type="text" placeholder="Enter Age" name="age" [formControl]="age">   
+    <input 
+    class="w-auto border border-gray-300 bg-amber-50 rounded px-3"
+    type="text" placeholder="Enter Age" name="age" [formControl]="age">   
     <br><br> 
     <label for="email">User Email : </label>
-    <input type="text" placeholder="Enter Email" name="email" [formControl]="email">  
+    <input 
+    class="w-auto border border-gray-300 bg-amber-50 rounded px-3"
+    type="text" placeholder="Enter Email" name="email" [formControl]="email">  
     <br><br>
-    <button (click)="editUser()">Update User</button>  
+    <button class="bg-green-600 text-white rounded-md p-1 m-2" (click)="editUser()">Update User</button> 
+    </div>    
+    
 </div>
